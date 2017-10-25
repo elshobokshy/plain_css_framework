@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/plain.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <label for="navbar-menu" class="show-menu">☰</label>
+                <input type="checkbox" id="navbar-menu" role="button">
+            
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="scss.html">SCSS</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <h1 class="align-center">Plain CSS Framework</h1>
+            <h2 class="align-center">
+                <small>
+                        Here is an overview of Plain SCSS' features
+                </small>
+            </h2>
+        </div>
+
+        <div class="row">
+            
+            <div class="sm-12">
+                <div class="row">
+                    <h3 class="align-left">
+                        Use Plain SCSS in your website.
+                    </h3>
+                    <p>
+                        In order to use the mixins of Plain CSS you'll need to import inside of your own scss file the framework's scss 
+                        contained in assets/plain.scss as follow :
+                    </p>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+@import '../scss/framework';
+
+/*
+    You can now use inside your own scss file all the mixins of the framwork.
+*/
+
+.myClass {
+    @include plainCSSMixin();
+}
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Buttons
+                    </h3>
+                    <p>
+                        In order to create your own buttons, you'll need after importing the 
+                        framework's scss to create a class that modifies the corresponding mixins
+                        used to create a button. <br><br>
+                        <strong>btn-struct</strong> mixin takes 5 arguments : <br>
+                        btn-struct($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) <br><br>
+                        <strong>btn-text</strong> mixin takes 2 arguments : <br> 
+                        btn-text ($color, $font-size) <br><br>
+                        <strong>btn-style</strong> mixin takes arguments : <br>
+                        btn-style($background, $border, $gradient1, $gradient2, $box-shadow)
+                    </p>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+@import '../scss/framework';
+
+.customized_btn {
+    @include btn-struct();
+    @include btn-text();
+    @include btn-style();
+}
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                        <h3 class="align-left">
+                            Alerts
+                        </h3>
+                        <p>
+                            In order to create your own alerts, you'll need after importing the 
+                            framework's scss to create a class that modifies the corresponding mixins
+                            used to create a button. <br><br>
+                            <strong>alert-struct</strong> mixin takes 4 arguments : <br>
+                            alert-struct($padding, $margin-bottom, $border, $border-radius) <br><br>
+                            <strong>alert-style</strong> mixin takes 3 arguments : <br> 
+                            alert-style($background, $border, $text-color) <br><br>
+                        </p>
+                        <h4 class="align-left demo">
+                            Code :
+                        </h4>
+                        <div class="code">
+@import '../scss/framework';
+
+.customized_alert {
+    @include alert-struct();
+    @include alert-style();
+}
+    
+                        </div>
+                    </div>
+    
+                    <hr>
+
+                    <div class="row">
+                        <h3 class="align-left">
+                            Grids
+                        </h3>
+                        <p>
+                            In order to customize the current grid, you can create classes that are able to
+                            simulate an offset, a col width, or both.<br><br>
+                            <strong>make-grid-columns</strong> and <strong>make-grid-offset</strong> mixin takes 3 arguments which corresponds to 
+                            the size on small screens followed by medium screen and lastly on large screens : <br><br>
+                            make-grid-columns($sizeS, $sizeM, $sizeL) <br>
+                            make-grid-offset($sizeS, $sizeM, $sizeL)
+                        </p>
+                        <h4 class="align-left demo">
+                            Code :
+                        </h4>
+                        <div class="code">
+@import '../scss/framework';
+
+.customized_grid_col_off {
+    @include grid-off(s,m,l);
+    @include grid-col(s,m,l);
+}
+    
+                        </div>
+                    </div>
+    
+                    <hr>
+
+                    <div class="row">
+                        <h3 class="align-left">
+                            Variables
+                        </h3>
+                        <p>
+                            The file _variables.scss contains the default values of all components inside the framework. <br>
+                            In order to apply by force a value, you can change it's value inside that file and remove the 
+                            <code>!default</code>.
+                        </p>
+                        <h4 class="align-left demo">
+                            Code :
+                        </h4>
+                        <div class="code">
+@import '../scss/framework';
+
+.customized_grid_col_off {
+    @include grid-off(s,m,l);
+    @include grid-col(s,m,l);
+}
+    
+                        </div>
+                    </div>
+    
+                    <hr>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

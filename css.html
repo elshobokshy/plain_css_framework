@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/plain.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <label for="navbar-menu" class="show-menu">☰</label>
+                <input type="checkbox" id="navbar-menu" role="button">
+            
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="scss.html">SCSS</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <h1 class="align-center">Plain CSS Framework</h1>
+            <h2 class="align-center">
+                <small>
+                        Here is an overview of Plain CSS' features
+                </small>
+            </h2>
+        </div>
+
+        <div class="row">
+            
+            <div class="sm-12">
+                <div class="row">
+                    <h3 class="align-left">
+                        HTML Headings (<code>&#60;h1&#62;</code> to <code>&#60;h6&#62;</code>)
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <h1>H1 Heading</h1>
+                        <h2>H2 Heading</h2>
+                        <h3>H3 Heading</h3>
+                        <h4>H4 Heading</h4>
+                        <h5>H5 Heading</h5>
+                        <h6>H6 Heading</h6>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;h1&#62;H1 Heading&#60;/h1&#62;
+&#60;h2&#62;H2 Heading&#60;/h2&#62;
+&#60;h3&#62;H3 Heading&#60;/h3&#62;
+&#60;h4&#62;H4 Heading&#60;/h4&#62;
+&#60;h5&#62;H5 Heading&#60;/h5&#62;
+&#60;h6&#62;H6 Heading&#60;/h6&#62;
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                        <h3 class="align-left">
+                            Small HTML Headings
+                        </h3>
+                        <h4 class="align-left demo">
+                            Demo :
+                        </h4>
+                        <div class="demo">
+                            <h1 class="small">Small H1 Heading</h1>
+                            <h2 class="small">Small H2 Heading</h2>
+                            <h3 class="small">Small H3 Heading</h3>
+                            <h4 class="small">Small H4 Heading</h4>
+                            <h5 class="small">Small H5 Heading</h5>
+                            <h6 class="small">Small H6 Heading</h6>
+                        </div>
+                        <h4 class="align-left demo">
+                            Code :
+                        </h4>
+                        <div class="code">
+    &#60;h1 class="small"&#62;Small H1 Heading&#60;/h1&#62;
+    &#60;h2 class="small"&#62;Small H2 Heading&#60;/h2&#62;
+    &#60;h3 class="small"&#62;Small H3 Heading&#60;/h3&#62;
+    &#60;h4 class="small"&#62;Small H4 Heading&#60;/h4&#62;
+    &#60;h5 class="small"&#62;Small H5 Heading&#60;/h5&#62;
+    &#60;h6 class="small"&#62;Small H6 Heading&#60;/h6&#62;
+                        </div>
+                        <small>
+                            Info : small class <code>class="small"</code> has the same effect as the small tag <code>&#60;small&#62;&#60;/small&#62;</code>.
+                        </small>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Other typography styles
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+                        <p>I like <mark>turtles.</mark> and <u>birds</u>, but especially <strong>dogs</strong> and <em>cats</em>.</p>
+                        <p>Press on <kbd>ctrl</kbd> + <kbd>S</kbd> to save, or <kbd>esc</kbd> to quit.</p>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;p&#62;My favorite color is &#60;del&#62;blue&#60;/del&#62; &#60;ins&#62;red&#60;/ins&#62;!&#60;/p&#62;
+&#60;p&#62;I like &#60;mark&#62;turtles.&#60;/mark&#62; and &#60;u&#62;birds&#60;/u&#62;, but especially &#60;strong&#62;dogs&#60;/strong&#62; and &#60;em&#62;cats&#60;/em&#62;.&#60;/p&#62;
+&#60;p&#62;Press on &#60;kbd&#62;ctrl&#60;/kbd&#62; + &#60;kbd&#62;S&#60;/kbd&#62; to save, or &#60;kbd&#62;esc&#60;/kbd&#62; to quit.&#60;/p&#62;
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Bloquotes
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis numquam beatae veritatis nostrum obcaecati, natus tenetur cumque ex adipisci, asperiores, placeat ab perferendis suscipit quibusdam ipsam? Sit suscipit maxime veniam.</blockquote>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;p&#62;My favorite color is &#60;del&#62;blue&#60;/del&#62; &#60;ins&#62;red&#60;/ins&#62;!&#60;/p&#62;
+&#60;p&#62;I like &#60;mark&#62;turtles.&#60;/mark&#62; and &#60;u&#62;birds&#60;/u&#62;, but especially &#60;strong&#62;dogs&#60;/strong&#62; and &#60;em&#62;cats&#60;/em&#62;.&#60;/p&#62;
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Code tags
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                            <p><code>echo 'This is a code tag !';</code></p>
+                            <p><pre>
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+                            </pre></p>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+    &#60;p&#62;&#60;code&#62;echo 'This is a code tag !';&#60;/code&#62;&#60;/p&#62;
+    &#60;p&#62;&#60;pre&#62;
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    echo 'This is a pre tag !';
+    &#60;/pre&#62;&#60;/p&#62;                    
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Lists
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <ul>
+                            <li>List style disc (default)</li>
+                            <li class="square">List style square</li>
+                            <ul class="none">
+                                <li>List with no style type</li>
+                                <li>List with no style type</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;ul&#62;
+    &#60;li&#62;List style disc (default)&#60;/li&#62;
+    &#60;li class="square"&#62;List style square&#60;/li&#62;
+    &#60;ul class="none"&#62;
+        &#60;li&#62;List with no style type&#60;/li&#62;
+        &#60;li&#62;List with no style type&#60;/li&#62;
+    &#60;/ul&#62;
+&#60;/ul&#62;                    
+                    </div>
+                    <small>
+                        Info : you can use <code>class="square"</code> and <code>class="none"</code> on either a <code>ul</code> or an <code>li</code>.
+                    </small>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Transformations
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <p class="uppercase">lowercase text getting uppercase</p>
+                        <p class="lowercase">UPPERCASE TEXT GETTING LOWERCASED</p>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;p class="uppercase"&#62;lowercase text getting uppercase&#60;/p&#62;
+&#60;p class="lowercase"&#62;UPPERCASE TEXT GETTING LOWERCASED&#60;/p&#62;
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Text alignement
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <p class="align-left">Align left</p>
+                        <p class="align-right">Align right</p>
+                        <p class="align-center">Align center</p>
+                        <p class="align-justify">Align justify</p>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;p class="align-left"&#62;Align left&#60;/p&#62;
+&#60;p class="align-right"&#62;Align right&#60;/p&#62;
+&#60;p class="align-center"&#62;Align center&#60;/p&#62;
+&#60;p class="align-justify"&#62;Align justify&#60;/p&#62;
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Tables
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <table>
+                            <thead>
+                                <th>th 1</th>
+                                <th>th 2</th>
+                                <th>th 3</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>td 1</td>
+                                    <td>td 2</td>
+                                    <td>td 3</td>
+                                </tr>
+                                <tr>
+                                    <td>td 1</td>
+                                    <td>td 2</td>
+                                    <td>td 3</td>
+                                </tr>
+                                <tr>
+                                    <td>td 1</td>
+                                    <td>td 2</td>
+                                    <td>td 3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;table&#62;
+    &#60;thead&#62;
+        &#60;th&#62;th 1&#60;/th&#62;
+        &#60;th&#62;th 2&#60;/th&#62;
+        &#60;th&#62;th 3&#60;/th&#62;
+    &#60;/thead&#62;
+    &#60;tbody&#62;
+        &#60;tr&#62;
+            &#60;td&#62;td 1&#60;/td&#62;
+            &#60;td&#62;td 2&#60;/td&#62;
+            &#60;td&#62;td 3&#60;/td&#62;
+        &#60;/tr&#62;
+        &#60;tr&#62;
+            &#60;td&#62;td 1&#60;/td&#62;
+            &#60;td&#62;td 2&#60;/td&#62;
+            &#60;td&#62;td 3&#60;/td&#62;
+        &#60;/tr&#62;
+        &#60;tr&#62;
+            &#60;td&#62;td 1&#60;/td&#62;
+            &#60;td&#62;td 2&#60;/td&#62;
+            &#60;td&#62;td 3&#60;/td&#62;
+        &#60;/tr&#62;
+    &#60;/tbody&#62;
+&#60;/table&#62;
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Buttons
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <div class="row">
+                            <div class="sm-4">
+                                <button class="btn">Button default</button>
+                            </div>
+                            <div class="sm-4">
+                                <button class="btn-blue">Blue button default</button>
+                            </div>
+                            <div class="sm-4">
+                                <button class="btn-green">Green button default</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="sm-4">
+                                <button class="btn-red">Red button</button>
+                            </div>
+                            <div class="sm-4">
+                                <button class="btn-fancy">Fancy button default</button>
+                            </div>
+                            <div class="sm-4">
+                                <button class="btn-fancy-blue">Fancy blue button</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="sm-4">
+                                <button class="btn-fancy-green">Fancy green button</button>
+                            </div>
+                            <div class="sm-4">
+                                <button class="btn-fancy-red">Fancy Red button</button>
+                            </div>
+                            <div class="sm-4">
+                                <button class="btn-lg">Large button</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="sm-4">
+                                <button class="btn-sm">Small button</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;div class="row"&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn"&#62;Button default&#60;/button&#62;
+    &#60;/div&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-blue"&#62;Blue button&#60;/button&#62;
+    &#60;/div&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-green"&#62;Green button&#60;/button&#62;
+    &#60;/div&#62;
+&#60;/div&#62;
+&#60;div class="row"&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-red"&#62;Red button&#60;/button&#62;
+    &#60;/div&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-fancy"&#62;Fancy button default&#60;/button&#62;
+    &#60;/div&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-fancy-blue"&#62;Fancy blue button&#60;/button&#62;
+    &#60;/div&#62;
+&#60;/div&#62;
+&#60;div class="row"&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-fancy-green"&#62;Fancy green button&#60;/button&#62;
+    &#60;/div&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-fancy-red"&#62;Fancy red button&#60;/button&#62;
+    &#60;/div&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-lg"&#62;Large button&#60;/button&#62;
+    &#60;/div&#62;
+&#60;/div&#62;
+&#60;div class="row"&#62;
+    &#60;div class="sm-4"&#62;
+        &#60;button class="btn-sm"&#62;Small button&#60;/button&#62;
+    &#60;/div&#62;
+&#60;/div&#62;
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Alerts
+                    </h3>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <div class="sm-12">
+                            <p class="alert alert-success">Success alert</p>
+                        </div>
+                        <div class="sm-12">
+                            <p class="alert alert-info">Information alert</p>
+                        </div>
+                        <div class="sm-12">
+                            <p class="alert alert-warning">Warning alert</p>
+                        </div>
+                        <div class="sm-12">
+                            <p class="alert alert-danger">Danger alert</p>
+                        </div>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;div class="sm-12"&#62;
+    &#60;p class="alert alert-success"&#62;Success alert&#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="sm-12"&#62;
+    &#60;p class="alert alert-info"&#62;Information alert&#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="sm-12"&#62;
+    &#60;p class="alert alert-warning"&#62;Warning alert&#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="sm-12"&#62;
+    &#60;p class="alert alert-danger"&#62;Danger alert&#60;/p&#62;
+&#60;/div&#62;
+
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Grids
+                    </h3>
+                    <p>
+                        The framework is composed of 12 columns. In order to use the grid,
+                        all of your elements needs to be inside a container class. And the sum of
+                        12 columns needs to be inside a row class. <br>
+                        There are three possible values for the grid : sm, md, lg <br>
+                        lg : Large is used when you want to have specific dimensions for your tag on large screens <br>
+                        md : Medium is used in the same way for medium screens. If large is not defined, medium is used for
+                        medium and large screens <br>
+                        sm : Small is used in the same way as medium for small screens.
+                    </p>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <div class="grid-row">
+                            <p class="sm-1 overview">Small 1</p>
+                            <p class="sm-11 overview">Small 11</p>
+                        </div>
+                        <div class="grid-row">
+                            <p class="sm-2 overview">Small 2</p>
+                            <p class="sm-10 overview">Small 10</p>
+                        </div>
+                        <div class="grid-row">
+                            <p class="sm-3 overview">Small 3</p>
+                            <p class="sm-9 overview">Small 9</p>
+                        </div>
+                        <div class="grid-row">
+                            <p class="sm-4 overview">Small 4</p>
+                            <p class="sm-8 overview">Small 8</p>
+                        </div>
+                        <div class="grid-row">
+                            <p class="sm-5 overview">Small 5</p>
+                            <p class="sm-7 overview">Small 7</p>
+                        </div>
+                        <div class="grid-row">
+                            <p class="sm-6 overview">Small 6</p>
+                            <p class="sm-6 overview">Small 6</p>
+                        </div>
+                        <div class="grid-row">
+                            <p class="sm-12 overview">Small 12</p>
+                        </div>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;div class="sm-12"&#62;
+    &#60;p class="alert alert-success"&#62;Success alert&#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="sm-12"&#62;
+    &#60;p class="alert alert-info"&#62;Information alert&#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="sm-12"&#62;
+    &#60;p class="alert alert-warning"&#62;Warning alert&#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="sm-12"&#62;
+    &#60;p class="alert alert-danger"&#62;Danger alert&#60;/p&#62;
+&#60;/div&#62;
+
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Grids offset
+                    </h3>
+                    <p>
+                        An offset is used to skip a certain number of columns to the left. Three values 
+                        are possible for it : sm-offset, md-offset, lg-offset
+                    </p>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <div class="grid-row">
+                            <p class="sm-offset-8 sm-4 overview">Offset 8 -> Small 4</p>
+                        </div>
+                        <div class="grid-row">
+                            <p class="sm-offset-6 sm-6 overview">Offset 6 -> Small 6</p>
+                        </div>
+                        <div class="grid-row">
+                            <p class="sm-offset-3 sm-11 overview">Offset 3 -> Small 11</p>
+                        </div>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;div class="grid-row"&#62;
+    &#60;p class="sm-offset-8 sm-4 overview"&#62;Offset 8 -&#62; Small 4&#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="grid-row"&#62;
+    &#60;p class="sm-offset-6 sm-6 overview"&#62;Offset 6 -&#62; Small 6&#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="grid-row"&#62;
+    &#60;p class="sm-offset-3 sm-11 overview"&#62;Offset 3 -&#62; Small 11&#60;/p&#62;
+&#60;/div&#62;
+
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="row">
+                    <h3 class="align-left">
+                        Navbars
+                    </h3>
+                    <p>
+                        Two kind of menus are available, the default navbar and the breadcrumb.
+                    </p>
+                    <h4 class="align-left demo">
+                        Demo :
+                    </h4>
+                    <div class="demo">
+                        <div class="row">
+                            <ul class="navbar">
+                                <li><a href="#">Link 1</a></li>
+                                <li class="active"><a href="#">Link 2</a></li>
+                                <li class="disabled"><a href="#">Link 3</a></li>
+                                <li><a href="#">Link 4</a></li>
+                                <li><a href="#">Link 5</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <ul class="breadcrumb">
+                                <li><a href="#">Link 1</a></li>
+                                <li class="active"><a href="#">Link 2</a></li>
+                                <li><a href="#">Link 3</a></li>
+                                <li><a href="#">Link 4</a></li>
+                                <li><a href="#">Link 5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h4 class="align-left demo">
+                        Code :
+                    </h4>
+                    <div class="code">
+&#60;div class="row"&#62;
+    &#60;ul class="navbar"&#62;
+        &#60;li&#62;&#60;a href="#"&#62;Link 1&#60;/a&#62;&#60;/li&#62;
+        &#60;li class="active"&#62;&#60;a href="#"&#62;Link 2&#60;/a&#62;&#60;/li&#62;
+        &#60;li class="disabled"&#62;&#60;a href="#"&#62;Link 3&#60;/a&#62;&#60;/li&#62;
+        &#60;li&#62;&#60;a href="#"&#62;Link 4&#60;/a&#62;&#60;/li&#62;
+        &#60;li&#62;&#60;a href="#"&#62;Link 5&#60;/a&#62;&#60;/li&#62;
+    &#60;/ul&#62;
+&#60;/div&#62;
+&#60;div class="row"&#62;
+    &#60;ul class="breadcrumb"&#62;
+        &#60;li&#62;&#60;a href="#"&#62;Link 1&#60;/a&#62;&#60;/li&#62;
+        &#60;li class="active"&#62;&#60;a href="#"&#62;Link 2&#60;/a&#62;&#60;/li&#62;
+        &#60;li&#62;&#60;a href="#"&#62;Link 3&#60;/a&#62;&#60;/li&#62;
+        &#60;li&#62;&#60;a href="#"&#62;Link 4&#60;/a&#62;&#60;/li&#62;
+        &#60;li&#62;&#60;a href="#"&#62;Link 5&#60;/a&#62;&#60;/li&#62;
+    &#60;/ul&#62;
+&#60;/div&#62;
+
+                    </div>
+                </div>
+
+                <hr>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
