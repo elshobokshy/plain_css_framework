@@ -1,5 +1,5 @@
-@mixin btn-struct($padding-vertical: 0.6em, 
-                  $padding-horizontal: 1em, 
+@mixin btn-struct($padding-vertical: 10px, 
+                  $padding-horizontal: 1vw, 
                   $font-size: 14px, 
                   $line-height: 1, 
                   $border-radius: 2px) {
