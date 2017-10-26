@@ -434,7 +434,7 @@ blockquote {
 }
 
 .code {
-  padding: 20px 40px;
+  padding: 20px 5vw;
   display: block;
   white-space: pre-wrap;
   margin-bottom: 1em;
@@ -448,7 +448,7 @@ blockquote {
   box-sizing: border-box;
   background-color: #ffffff;
   border: 1px solid #ff5d5d;
-  padding: 20px 40px;
+  padding: 20px 2vw;
 }
 
 code {
