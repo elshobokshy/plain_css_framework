@@ -584,6 +584,10 @@ div {
   overflow: hidden;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* CSS TYPOGRAPHIE END */
 /* Default button */
 .btn, .btn-fancy {
