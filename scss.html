@@ -165,10 +165,41 @@
                         <div class="code">
 @import '../scss/framework';
 
-.customized_grid_col_off {
-    @include grid-off(s,m,l);
-    @include grid-col(s,m,l);
-}
+/* Exemple */
+
+/* Change the colors of the default button that is supposed to be a derivitive of grey */
+
+$default-button-color: #fff !default;
+
+$default-button-borderColor: #000000 !default;
+
+$default-button-active-bgcolor: #9B9B9B !default;
+
+$default-button-hover-bgcolor: #B3B3B3 !default;
+
+$default-button-bgcolor: #BDC3C7 !default;
+
+$default-button-size: 14px !default;
+
+$default-button-border-radius: 2px !default;
+
+
+
+/* Change to something similar to */
+
+$default-button-color: $yourCustomColorHere;
+
+$default-button-borderColor: $yourCustomColorHere;
+
+$default-button-active-bgcolor: $yourCustomColorHere;
+
+$default-button-hover-bgcolor: $yourCustomColorHere;
+
+$default-button-bgcolor: $yourCustomColorHere;
+
+$default-button-size: $yourCustomColorHere;
+
+$default-button-border-radius: $yourCustomColorHere;
     
                         </div>
                     </div>
