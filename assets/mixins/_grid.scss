@@ -17,8 +17,7 @@
 }
 
 @mixin make-row($grid: $grid-width) {
-    margin-left:  ceil($grid);
-    margin-right: floor($grid);
+    margin: 3vh 3vw;
     @include clearfix;
 }
 

@@ -1176,8 +1176,7 @@ img {
 }
 
 .row {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 3vh 3vw;
 }
 
 .row:before, .row:after {
