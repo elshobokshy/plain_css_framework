@@ -228,7 +228,7 @@ em {
 
 ul {
   list-style-type: disc;
-  margin-bottom: 1 em;
+  margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
@@ -607,14 +607,14 @@ img {
   font-size: 14px;
   color: #fff;
   background-color: #BDC3C7;
-  border-color: none;
-  background: -webkit-linear-gradient(inherit, inherit);
+  border-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(inherit, inherit);
+  background: -o-linear-gradient(transparent, transparent);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(inherit, inherit);
+  background: -moz-linear-gradient(transparent, transparent);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(inherit, inherit);
+  background: linear-gradient(transparent, transparent);
   /* Standard syntax */
   box-shadow: none;
 }
@@ -650,13 +650,13 @@ img {
   color: #fff;
   background-color: #5bc0de;
   border-color: #46b8da;
-  background: -webkit-linear-gradient(inherit, inherit);
+  background: -webkit-linear-gradient(transparent, transparent);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(inherit, inherit);
+  background: -o-linear-gradient(transparent, transparent);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(inherit, inherit);
+  background: -moz-linear-gradient(transparent, transparent);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(inherit, inherit);
+  background: linear-gradient(transparent, transparent);
   /* Standard syntax */
   box-shadow: none;
 }
@@ -692,13 +692,13 @@ img {
   color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c;
-  background: -webkit-linear-gradient(inherit, inherit);
+  background: -webkit-linear-gradient(transparent, transparent);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(inherit, inherit);
+  background: -o-linear-gradient(transparent, transparent);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(inherit, inherit);
+  background: -moz-linear-gradient(transparent, transparent);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(inherit, inherit);
+  background: linear-gradient(transparent, transparent);
   /* Standard syntax */
   box-shadow: none;
 }
@@ -734,13 +734,13 @@ img {
   color: #fff;
   background-color: #d9534f;
   border-color: #d43f3a;
-  background: -webkit-linear-gradient(inherit, inherit);
+  background: -webkit-linear-gradient(transparent, transparent);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(inherit, inherit);
+  background: -o-linear-gradient(transparent, transparent);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(inherit, inherit);
+  background: -moz-linear-gradient(transparent, transparent);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(inherit, inherit);
+  background: linear-gradient(transparent, transparent);
   /* Standard syntax */
   box-shadow: none;
 }
@@ -815,14 +815,14 @@ img {
   font-size: 14px;
   color: #fff;
   background-color: #BDC3C7;
-  border-color: none;
-  background: -webkit-linear-gradient(inherit, inherit);
+  border-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(inherit, inherit);
+  background: -o-linear-gradient(transparent, transparent);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(inherit, inherit);
+  background: -moz-linear-gradient(transparent, transparent);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(inherit, inherit);
+  background: linear-gradient(transparent, transparent);
   /* Standard syntax */
   box-shadow: none;
 }
@@ -856,14 +856,14 @@ img {
   font-size: 14px;
   color: #fff;
   background-color: #BDC3C7;
-  border-color: none;
-  background: -webkit-linear-gradient(inherit, inherit);
+  border-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(inherit, inherit);
+  background: -o-linear-gradient(transparent, transparent);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(inherit, inherit);
+  background: -moz-linear-gradient(transparent, transparent);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(inherit, inherit);
+  background: linear-gradient(transparent, transparent);
   /* Standard syntax */
   box-shadow: none;
 }
@@ -916,7 +916,7 @@ img {
   width: 100%;
   padding: 0 1em;
   box-sizing: border-box;
-  margin-bottom: 1;
+  margin-bottom: 1px;
   overflow: hidden;
   margin: 0 auto;
   overflow: hidden;
@@ -1221,7 +1221,7 @@ input[type=checkbox] {
     flex-direction: column;
   }
   ul.navbar.li {
-    border-bottom: 2px solid inhert;
+    border-bottom: 2px solid transparent;
     display: block;
     font-size: 1.5em;
     padding: 2em 0;
