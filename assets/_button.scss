@@ -38,7 +38,7 @@
 }
 
 .btn-fancy:active {
-    @extend .btn:active;
+    @extend .btn-fancy;
     box-shadow: $fancy-default-active-button-boxShadow;
     transform: $fancy-active-button-transform;
 }
@@ -51,7 +51,7 @@
 }
 
 .btn-fancy-blue:active {
-    @extend .btn-blue:active;
+    @extend .btn-fancy-blue;
     box-shadow: $fancy-blue-active-button-boxShadow;
     transform: $fancy-active-button-transform;
 }
@@ -64,7 +64,7 @@
 }
 
 .btn-fancy-green:active {
-    @extend .btn-green:active;
+    @extend .btn-fancy-green;
     box-shadow: $fancy-green-active-button-boxShadow;
     transform: $fancy-active-button-transform;
 }
@@ -77,7 +77,7 @@
 }
 
 .btn-fancy-red:active {
-    @extend .btn-red:active;
+    @extend .btn-fancy-red:active;
     box-shadow: $fancy-red-active-button-boxShadow;
     transform: $fancy-active-button-transform;
 }

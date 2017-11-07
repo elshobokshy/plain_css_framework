@@ -39,13 +39,13 @@
     
     box-shadow: $box-shadow;
 
-    &:focus {
+    :focus {
       background-color: darken($background, 10%);
     }
-    &:hover {
+    :hover {
       background-color: darken($background, 10%);
     }
-    &:active {
+    :active {
       background-color: darken($background, 10%);
     }
 }
