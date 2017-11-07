@@ -590,7 +590,7 @@ img {
 
 /* CSS TYPOGRAPHIE END */
 /* Default button */
-.btn, .btn-fancy {
+.btn, .btn-fancy, .btn-fancy:active {
   padding: 10px 1vw;
   line-height: 1;
   border-radius: 2px;
@@ -607,32 +607,32 @@ img {
   font-size: 14px;
   color: #fff;
   background-color: #BDC3C7;
-  border-color: transparent;
-  background: -webkit-linear-gradient(transparent, transparent);
+  border-color: #BDC3C7;
+  background: -webkit-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(transparent, transparent);
+  background: -o-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(transparent, transparent);
+  background: -moz-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(transparent, transparent);
+  background: linear-gradient(#BDC3C7, #BDC3C7);
   /* Standard syntax */
   box-shadow: none;
 }
 
-.btn:focus, .btn-fancy:focus {
+.btn :focus, .btn-fancy :focus {
   background-color: #a1aab0;
 }
 
-.btn:hover, .btn-fancy:hover {
+.btn :hover, .btn-fancy :hover {
   background-color: #a1aab0;
 }
 
-.btn:active, .btn-fancy:active {
+.btn :active, .btn-fancy :active {
   background-color: #a1aab0;
 }
 
 /* Blue button */
-.btn-blue, .btn-fancy-blue {
+.btn-blue, .btn-fancy-blue, .btn-fancy-blue:active {
   padding: 10px 1vw;
   line-height: 1;
   border-radius: 2px;
@@ -650,31 +650,31 @@ img {
   color: #fff;
   background-color: #5bc0de;
   border-color: #46b8da;
-  background: -webkit-linear-gradient(transparent, transparent);
+  background: -webkit-linear-gradient(#5bc0de, #5bc0de);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(transparent, transparent);
+  background: -o-linear-gradient(#5bc0de, #5bc0de);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(transparent, transparent);
+  background: -moz-linear-gradient(#5bc0de, #5bc0de);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(transparent, transparent);
+  background: linear-gradient(#5bc0de, #5bc0de);
   /* Standard syntax */
   box-shadow: none;
 }
 
-.btn-blue:focus, .btn-fancy-blue:focus {
+.btn-blue :focus, .btn-fancy-blue :focus {
   background-color: #31b0d5;
 }
 
-.btn-blue:hover, .btn-fancy-blue:hover {
+.btn-blue :hover, .btn-fancy-blue :hover {
   background-color: #31b0d5;
 }
 
-.btn-blue:active, .btn-fancy-blue:active {
+.btn-blue :active, .btn-fancy-blue :active {
   background-color: #31b0d5;
 }
 
 /* Green button */
-.btn-green, .btn-fancy-green {
+.btn-green, .btn-fancy-green, .btn-fancy-green:active {
   padding: 10px 1vw;
   line-height: 1;
   border-radius: 2px;
@@ -692,26 +692,26 @@ img {
   color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c;
-  background: -webkit-linear-gradient(transparent, transparent);
+  background: -webkit-linear-gradient(#5cb85c, #5cb85c);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(transparent, transparent);
+  background: -o-linear-gradient(#5cb85c, #5cb85c);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(transparent, transparent);
+  background: -moz-linear-gradient(#5cb85c, #5cb85c);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(transparent, transparent);
+  background: linear-gradient(#5cb85c, #5cb85c);
   /* Standard syntax */
   box-shadow: none;
 }
 
-.btn-green:focus, .btn-fancy-green:focus {
+.btn-green :focus, .btn-fancy-green :focus {
   background-color: #449d44;
 }
 
-.btn-green:hover, .btn-fancy-green:hover {
+.btn-green :hover, .btn-fancy-green :hover {
   background-color: #449d44;
 }
 
-.btn-green:active, .btn-fancy-green:active {
+.btn-green :active, .btn-fancy-green :active {
   background-color: #449d44;
 }
 
@@ -734,31 +734,31 @@ img {
   color: #fff;
   background-color: #d9534f;
   border-color: #d43f3a;
-  background: -webkit-linear-gradient(transparent, transparent);
+  background: -webkit-linear-gradient(#d9534f, #d9534f);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(transparent, transparent);
+  background: -o-linear-gradient(#d9534f, #d9534f);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(transparent, transparent);
+  background: -moz-linear-gradient(#d9534f, #d9534f);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(transparent, transparent);
+  background: linear-gradient(#d9534f, #d9534f);
   /* Standard syntax */
   box-shadow: none;
 }
 
-.btn-red:focus, .btn-fancy-red:focus {
+.btn-red :focus, .btn-fancy-red :focus {
   background-color: #c9302c;
 }
 
-.btn-red:hover, .btn-fancy-red:hover {
+.btn-red :hover, .btn-fancy-red :hover {
   background-color: #c9302c;
 }
 
-.btn-red:active, .btn-fancy-red:active {
+.btn-red :active, .btn-fancy-red :active {
   background-color: #c9302c;
 }
 
 /* Default fancy button */
-.btn-fancy {
+.btn-fancy, .btn-fancy:active {
   box-shadow: 0 3px #767676;
 }
 
@@ -768,7 +768,7 @@ img {
 }
 
 /* Blue fancy button */
-.btn-fancy-blue {
+.btn-fancy-blue, .btn-fancy-blue:active {
   box-shadow: 0 3px #3E7A88;
 }
 
@@ -778,7 +778,7 @@ img {
 }
 
 /* Green fancy button */
-.btn-fancy-green {
+.btn-fancy-green, .btn-fancy-green:active {
   box-shadow: 0 3px #296129;
 }
 
@@ -815,27 +815,27 @@ img {
   font-size: 14px;
   color: #fff;
   background-color: #BDC3C7;
-  border-color: transparent;
-  background: -webkit-linear-gradient(transparent, transparent);
+  border-color: #BDC3C7;
+  background: -webkit-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(transparent, transparent);
+  background: -o-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(transparent, transparent);
+  background: -moz-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(transparent, transparent);
+  background: linear-gradient(#BDC3C7, #BDC3C7);
   /* Standard syntax */
   box-shadow: none;
 }
 
-.btn-lg:focus {
+.btn-lg :focus {
   background-color: #a1aab0;
 }
 
-.btn-lg:hover {
+.btn-lg :hover {
   background-color: #a1aab0;
 }
 
-.btn-lg:active {
+.btn-lg :active {
   background-color: #a1aab0;
 }
 
@@ -856,27 +856,27 @@ img {
   font-size: 14px;
   color: #fff;
   background-color: #BDC3C7;
-  border-color: transparent;
-  background: -webkit-linear-gradient(transparent, transparent);
+  border-color: #BDC3C7;
+  background: -webkit-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(transparent, transparent);
+  background: -o-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(transparent, transparent);
+  background: -moz-linear-gradient(#BDC3C7, #BDC3C7);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(transparent, transparent);
+  background: linear-gradient(#BDC3C7, #BDC3C7);
   /* Standard syntax */
   box-shadow: none;
 }
 
-.btn-sm:focus {
+.btn-sm :focus {
   background-color: #a1aab0;
 }
 
-.btn-sm:hover {
+.btn-sm :hover {
   background-color: #a1aab0;
 }
 
-.btn-sm:active {
+.btn-sm :active {
   background-color: #a1aab0;
 }
 

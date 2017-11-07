@@ -22,12 +22,12 @@
                  $font-size: 14px) {
     font-size: $font-size;
     color: $color;
-} 
+}
 
 @mixin btn-style($background: #CCCBCB, 
-                 $border: transparent, 
-                 $gradient1: transparent, 
-                 $gradient2: transparent, 
+                 $border: inherit, 
+                 $gradient1: inherit, 
+                 $gradient2: inherit, 
                  $box-shadow: none) {
     background-color: $background;
     border-color: $border;
@@ -58,7 +58,7 @@
            $font-size: 14px, 
            $color: #000000,
            $background: #CCCBCB, 
-           $border: transparent, 
+           $border: inherit, 
            $gradient1: inherit, 
            $gradient2: inherit, 
            $box-shadow: none) {
